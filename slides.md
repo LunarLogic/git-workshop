@@ -16,7 +16,6 @@
 * touch .gitignore
 * git add .gitignore
 * git commit -m "Initial commit"
-* (git clone)
 
 
 ## Staging Area (index)
@@ -77,6 +76,12 @@
 * watch out for detached HEAD state
 
 
+## Stash
+* git stash
+* git stash pop
+* git stash drop
+
+
 ## Branches
 * git branch oklahoma
 * git checkout -b arizona
@@ -109,7 +114,7 @@
 
 
 ## Merging 3
-* back merging
+* back merging:
 * gco -b oklahoma
 * echo "a day in oklahoma" >> diary
 * git commit -am "oklahoma 1"
@@ -132,6 +137,7 @@
 * git commit -am "add chapter 2"
 * echo "Chapter 3"  >> book
 * git commit -am "add chapter 3"
+* git push
 * gco master
 * echo "Foreword" >> book
 * git commit -am "add foreword"
@@ -141,15 +147,62 @@
 * gco california
 * git rebase master
 * gl -all
-
-
-## Fetch & Pull
-* cd ..
-* git clone git@github.com:LunarLogic/git-workshop.git
-* gco pulling
+* git push
 
 
 ## Interactive rebase
+* gco master
+* git rebase -i HEAD~4
+...
+
+## Fetch & Merge
+* cd ..
+* git clone git@github.com:LunarLogic/git-workshop.git
+* (I make some changes, push)
+* make some changes to diary.md
+* git fetch origin
+* git merge origin/master
 
 
+## Fetch && Rebase
+* (I make some changes, push)
+* make some changes
+* git fetch origin
+* git rebase origin/master
+
+
+## Pull
+* pull = fetch + merge
+* git pull --rebase = fetch + rebase
+* git pull --rebase --ff-only (will back out in case of conflicts)
+
+
+## Workflow
+* gco -b my-feature-name
+* work on your branch:
+* frequent small commits
+* diff before commiting to check
+* use amend if needed
+* concise & meaningful commit messages
+* when work is done, check if any clean up is needed
+* use interactive rebase to squash/remove/edit commits
+* push to remote
+* open a "pull request" on github (as in "I want you to pull in my changes")
+* if merge to master is not trivial: back-merge or rebase your branch
+* after rebase push with force (only your branch)
+* NEVER force push master/production or any branch which is shared with others
+
+
+## Next
+* git-fu by Przemek
+* git add -p
+* git cherry-pick
+* hooks
+* aliases
+* global gitignore
+* assume-unchanged
+
+
+## Thank you
+Happy gitting
 

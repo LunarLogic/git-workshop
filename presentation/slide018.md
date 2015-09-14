@@ -1,0 +1,90 @@
+           ___       ____
+          / _ \__ __/ / /
+         / ___/ // / / /
+        /_/   \_,_/_/_/
+
+        • pull = fetch + merge
+        • git pull --rebase = fetch + rebase
+        • git pull --rebase --ff-only (will back out in case of conflicts)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+slide 018

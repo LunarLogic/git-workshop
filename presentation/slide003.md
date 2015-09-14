@@ -7,7 +7,6 @@
         • touch .gitignore
         • git add .gitignore
         • git commit -m "Initial commit"
-        • (git clone)
 
 
 

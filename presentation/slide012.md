@@ -1,14 +1,19 @@
            __  ___             _            ___
-          /  |/  /__ _______ _(_)__ ___ _  |_  |
-         / /|_/ / -_) __/ _ `/ / _ \ _ `/ / __/
-        /_/  /_/\__/_/  \_, /_/_//_\_, / /____/
+          /  |/  /__ _______ _(_)__ ___ _  <  /
+         / /|_/ / -_) __/ _ `/ / _ \ _ `/  / /
+        /_/  /_/\__/_/  \_, /_/_//_\_, /  /_/
                        /___/      /___/
-        • make some changes
+        • gco arizona
+        • echo "a day in arizona" >> diary
+        • echo "1st chapter" >> book
+        • git commit -am "arizona 1"
+        • gco master
+        • echo "a day at home" >> diary
+        • git commit -am "home 1"
         • git merge arizona
-        • git merge --abort
-        • git merge arizona -X ours/theirs
-        •
-        • merge-commit has 2 parents
+        • (resolve conflicts)
+        • git add
+        • git commit
 
 
 

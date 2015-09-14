@@ -3,6 +3,22 @@
          _/ // _ \ __/ -_) __/ _ `/ __/ __/ / |/ / -_) / __/ -_) _ \ _ `(_-< -_)
         /___/_//_\__/\__/_/  \_,_/\__/\__/_/|___/\__/ /_/  \__/_.__\_,_/___\__/
 
+        • gco master
+        • git rebase -i HEAD~4
+        • ...
+
+           ____    __      __     ____      __  ___
+          / __/__ / /_____/ /    / __/___  /  |/  /__ _______ ____
+         / _// -_) __/ __/ _ \   > _/_ _/ / /|_/ / -_) __/ _ `/ -_)
+        /_/  \__/\__/\__/_//_/  |_____/  /_/  /_/\__/_/  \_, /\__/
+                                                        /___/
+        • cd ..
+        • git clone git@github.com:LunarLogic/git-workshop.git
+        • (I make some changes, push)
+        • make some changes to diary.md
+        • git fetch origin
+        • git merge origin/master
+
 
 
 

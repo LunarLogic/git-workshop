@@ -1,11 +1,24 @@
-           ____    __      __     ____      ___       ____
-          / __/__ / /_____/ /    / __/___  / _ \__ __/ / /
-         / _// -_) __/ __/ _ \   > _/_ _/ / ___/ // / / /
-        /_/  \__/\__/\__/_//_/  |_____/  /_/   \_,_/_/_/
+           ___      __
+          / _ \___ / / ___ _______
+         / , _/ -_) _ \ _ `(_-< -_)
+        /_/|_|\__/_.__\_,_/___\__/
 
-        • cd ..
-        • git clone git@github.com:LunarLogic/git-workshop.git
-        • gco pulling
+        • gco -b california
+        • echo "Chapter 2" >> book
+        • git commit -am "add chapter 2"
+        • echo "Chapter 3"  >> book
+        • git commit -am "add chapter 3"
+        • git push
+        • gco master
+        • echo "Foreword" >> book
+        • git commit -am "add foreword"
+        • echo "Index" >> book
+        • git commit -am "add index"
+        • gl -all
+        • gco california
+        • git rebase master
+        • gl -all
+        • git push
 
 
 

@@ -1,19 +1,13 @@
-           __  ___             _            ___
-          /  |/  /__ _______ _(_)__ ___ _  <  /
-         / /|_/ / -_) __/ _ `/ / _ \ _ `/  / /
-        /_/  /_/\__/_/  \_, /_/_//_\_, /  /_/
-                       /___/      /___/
-        • gco arizona
-        • echo "a day in arizona" >> diary
-        • echo "1st chapter" >> book
-        • git commit -am "arizona 1"
-        • gco master
-        • echo "a day at home" >> diary
-        • git commit -am "home 1"
-        • git merge arizona
-        • (resolve conflicts)
-        • git add
-        • git commit
+           ___                   __
+          / _ )_______ ____ ____/ / ___ ___
+         / _  / __/ _ `/ _ \ __/ _ \ -_)_-<
+        /____/_/  \_,_/_//_\__/_//_\__/___/
+
+        • git branch oklahoma
+        • git checkout -b arizona
+        • gl
+        • git branch -d oklahoma
+        • Branch is just a pointer to commit
 
 
 
