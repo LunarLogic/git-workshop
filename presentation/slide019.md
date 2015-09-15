@@ -1,21 +1,8 @@
-          _      __         __   _____
-         | | /| / /__  ____/ /__/ _/ /__ _    __
-         | |/ |/ / _ \/ __/  '_/ _/ / _ \ |/|/ /
-         |__/|__/\___/_/ /_/\_\_//_/\___/__,__/
+        Pull
 
-        • gco -b my-feature-name
-        • work on your branch:
-        • frequent small commits
-        • diff before commiting to check
-        • use amend if needed
-        • concise & meaningful commit messages
-        • when work is done, check if any clean up is needed
-        • use interactive rebase to squash/remove/edit commits
-        • push to remote
-        • open a "pull request" on github (as in "I want you to pull in my changes")
-        • if merge to master is not trivial: back-merge or rebase your branch
-        • after rebase push with force (only your branch)
-        • NEVER force push master/production or any branch which is shared with others
+        • pull = fetch + merge
+        • git pull --rebase = fetch + rebase
+        • git pull --rebase --ff-only (will back out in case of conflicts)
 
 
 

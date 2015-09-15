@@ -1,16 +1,15 @@
-          _______          __            __
-         / ___/ / ___ ____/ /_____ __ __/ /_
-        / /__/ _ \ -_) __/  '_/ _ \ // / __/
-        \___/_//_\__/\__/_/\_\\___\_,_/\__/
+        Checkout
 
         • git checkout HEAD
         • git checkout HEAD~
         • git checkout HEAD~2
-        • git chekcout ABC
-        • git checkout ABC -- diary
+        • git chekcout 123abc
+        • echo "ate a banana" >> diary
         • git checkout [HEAD] -- diary
+        • git checkout ABC -- diary
+        • checkout copies a snapshot(commit)
+        • to your working directory
         • git checkout -- .
-        • checkout copies a snapshot to working tree
 
 
 

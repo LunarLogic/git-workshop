@@ -1,8 +1,4 @@
-            _______ __
-           / ____(_) /__  _____
-          / /_  / / / _ \/ ___/
-         / __/ / / /  __(__  )
-        /_/   /_/_/\___/____/
+        Setup: Files
 
         • mkdir -p bookstore; cd bookstore
         • echo "beautiful day" > diary

@@ -1,23 +1,21 @@
-           ____    __                   __  _                    __
-          /  _/__ / /____ _______ _____/ /_(_)  _____   _______ / / ___ _______
-         _/ // _ \ __/ -_) __/ _ `/ __/ __/ / |/ / -_) / __/ -_) _ \ _ `(_-< -_)
-        /___/_//_\__/\__/_/  \_,_/\__/\__/_/|___/\__/ /_/  \__/_.__\_,_/___\__/
+        Rebase
 
+        • gco -b california
+        • echo "Chapter 4" >> book
+        • git commit -am "add chapter 4"
+        • echo "Chapter 5"  >> book
+        • git commit -am "add chapter 5"
+        • git push
         • gco master
-        • git rebase -i HEAD~4
-        • ...
-
-           ____    __      __     ____      __  ___
-          / __/__ / /_____/ /    / __/___  /  |/  /__ _______ ____
-         / _// -_) __/ __/ _ \   > _/_ _/ / /|_/ / -_) __/ _ `/ -_)
-        /_/  \__/\__/\__/_//_/  |_____/  /_/  /_/\__/_/  \_, /\__/
-                                                        /___/
-        • cd ..
-        • git clone git@github.com:LunarLogic/git-workshop.git
-        • (I make some changes, push)
-        • make some changes to diary.md
-        • git fetch origin
-        • git merge origin/master
+        • echo "Foreword" >> book
+        • git commit -am "add foreword"
+        • echo "Index" >> book
+        • git commit -am "add index"
+        • gl -all
+        • gco california
+        • git rebase master
+        • gl -all
+        • git push
 
 
 

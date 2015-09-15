@@ -1,15 +1,13 @@
-           __  ___             _            ___
-          /  |/  /__ _______ _(_)__ ___ _  <  /
-         / /|_/ / -_) __/ _ `/ / _ \ _ `/  / /
-        /_/  /_/\__/_/  \_, /_/_//_\_, /  /_/
-                       /___/      /___/
+        Merging 1
+
         • gco arizona
         • echo "a day in arizona" >> diary
-        • echo "1st chapter" >> book
+        • echo "Chapter X" >> book
         • git commit -am "arizona 1"
         • gco master
         • echo "a day at home" >> diary
         • git commit -am "home 1"
+        • gl --all
         • git merge arizona
         • (resolve conflicts)
         • git add

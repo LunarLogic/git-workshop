@@ -1,5 +1,6 @@
-        Merging 3: Back merging
+        Thank you
 
+        Happy gitting
 
 
 
@@ -80,4 +81,5 @@
 
 
 
-slide 014
+
+slide 023

@@ -1,11 +1,9 @@
-           ___       ____
-          / _ \__ __/ / /
-         / ___/ // / / /
-        /_/   \_,_/_/_/
+        Fetch && Rebase
 
-        • pull = fetch + merge
-        • git pull --rebase = fetch + rebase
-        • git pull --rebase --ff-only (will back out in case of conflicts)
+        • (I make some changes, push)
+        • make some changes
+        • git fetch origin
+        • git rebase origin/master
 
 
 

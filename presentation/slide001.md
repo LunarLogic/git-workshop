@@ -1,7 +1,4 @@
-           ___   ___
-          / _ | / (_)__ ____
-         / __ |/ / / _ `(_-<
-        /_/ |_/_/_/\_,_/___/
+        Setup: Aliases
 
         • alias s='git status'
         • alias gl='git log --graph --pretty="format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset"'

@@ -1,12 +1,17 @@
-           ____    __      __     ____   ____      ___      __
-          / __/__ / /_____/ /    / __/___ __/___  / _ \___ / / ___ _______
-         / _// -_) __/ __/ _ \   > _/_ _> _/_ _/ / , _/ -_) _ \ _ `(_-< -_)
-        /_/  \__/\__/\__/_//_/  |_____/|_____/  /_/|_|\__/_.__\_,_/___\__/
+        Interactive rebase
 
+        • gco master
+        • git rebase -i HEAD~4
+        • ...
+
+        Fetch & Merge
+
+        • cd ..
+        • git clone git@github.com:LunarLogic/git-workshop.git
         • (I make some changes, push)
-        • make some changes
+        • make some changes to diary.md
         • git fetch origin
-        • git rebase origin/master
+        • git merge origin/master
 
 
 

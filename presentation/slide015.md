@@ -1,24 +1,19 @@
-           ___      __
-          / _ \___ / / ___ _______
-         / , _/ -_) _ \ _ `(_-< -_)
-        /_/|_|\__/_.__\_,_/___\__/
-
-        • gco -b california
-        • echo "Chapter 2" >> book
-        • git commit -am "add chapter 2"
-        • echo "Chapter 3"  >> book
-        • git commit -am "add chapter 3"
-        • git push
+        • gco -b oklahoma
+        • echo "a day in oklahoma" >> diary
+        • git commit -am "oklahoma 1"
         • gco master
-        • echo "Foreword" >> book
-        • git commit -am "add foreword"
-        • echo "Index" >> book
-        • git commit -am "add index"
-        • gl -all
-        • gco california
-        • git rebase master
-        • gl -all
-        • git push
+        • echo "a day in school" >> diary
+        • git commit -am "shool day"
+        • git merge oklahoma
+        • uups CONFLICTS, lets back out
+        • git merge --abort
+        • gco oklahoma
+        • git merge master
+        • resolve conflicts
+        • git add; git commit
+        • gco master
+        • git merge oklahoma
+        • nice and easy merge (fast forward)
 
 
 

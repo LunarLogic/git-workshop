@@ -1,11 +1,12 @@
-           ______            _            ____ __
-          / __/ /____ ____ _(_)__ ___ _  / _(_) /__ ___
-         _\ \/ __/ _ `/ _ `/ / _ \ _ `/ / _/ / / -_)_-<
-        /___/\__/\_,_/\_, /_/_//_\_, / /_//_/_/\__/___/
-                     /___/      /___/
-        • git add .
-        • git reset HEAD
-        • git add -u .
+        Local Repository
+
+        • git commit -m "Added diary"
+        • commit is a blob/tree which gets a name
+        • commit is a named snapshot of a repo
+        • commit always has a parent
+        • different parent == different commit (rebasing)
+        • git commit -a -m "add and commit"
+        • git commit --amend
 
 
 

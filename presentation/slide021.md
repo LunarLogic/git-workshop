@@ -1,9 +1,7 @@
-         ________            __
-        /_  __/ / ___ ____  / /__  __ _____ __ __
-         / / / _ \ _ `/ _ \/  '_/ / // / _ \ // /
-        /_/ /_//_\_,_/_//_/_/\_\  \_, /\___\_,_/
-                                 /___/
-        Happy gitting
+        Dealing with fuckups
+        * if on your local branch: reset && clean && start over
+        * if on master/production: git revert
+        * create helper branches to test your ideas first
 
 
 
