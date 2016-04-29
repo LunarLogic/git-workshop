@@ -63,7 +63,7 @@ Checkout
 * git checkout HEAD
 * git checkout HEAD~
 * git checkout HEAD~2
-* git chekcout 123abc
+* git checkout 123abc
 * echo "ate a banana" >> diary
 * git checkout HEAD -- diary
 * git checkout ABC -- diary
