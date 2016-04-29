@@ -1,7 +1,7 @@
 ### Entry level git workshop.
 
 ####Install vimdeck:
-`geminstall vimdeck`
+`gem install vimdeck`
 ####Run presentation:
 `vimdeck slides.md`
 
