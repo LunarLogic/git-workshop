@@ -1,8 +1,8 @@
-git-workshop
+### Entry level git workshop.
 
-Entry level git workshop.
-
-Install vimdeck
-Run vimdeck slides.md
+####Install vimdeck:
+`geminstall vimdeck`
+####Run presentation:
+`vimdeck slides.md`
 
 
