@@ -1,9 +1,8 @@
-        Setup: Files
+        Setup: Clone Remote Repo
 
-        • mkdir -p bookstore; cd bookstore
-        • echo "beautiful day" > diary
-        • echo "Chapter 1" > book
-        • echo "buy milk" > memory
+        • git clone git@github.com:LunarLogic/git-workshop.git
+        • cd git-workshop
+        • git ls-files
 
 
 

@@ -1,17 +1,11 @@
-        Merging 1
+        Merging 2
 
-        • gco arizona
-        • echo "a day in arizona" >> diary
-        • echo "Chapter X" >> book
-        • git commit -am "arizona 1"
-        • gco master
-        • echo "a day at home" >> diary
-        • git commit -am "home 1"
-        • gl --all
+        • skip ex
+        • make some changes
         • git merge arizona
-        • (resolve conflicts)
-        • git add
-        • git commit
+        • git merge --abort
+        • git merge arizona -X ours/theirs
+        • merge-commit has 2 parents
 
 
 

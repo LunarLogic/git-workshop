@@ -1,9 +1,10 @@
-        Staging files
+        Branches
 
-        • git add . (all)
-        • git reset HEAD
-        • git add -u . (only tracked)
-        • git add -A (all with deletes)
+        • git branch oklahoma
+        • git checkout -b arizona
+        • gl
+        • git branch -d oklahoma
+        • Branch is just a pointer to commit
 
 
 

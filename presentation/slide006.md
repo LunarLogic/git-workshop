@@ -1,12 +1,13 @@
-        Remote Repository
+        Editing & Commiting (Working directory)
 
-        • git push
-        • lets set up remote repo on github
-        • git remote add origin git@github.com:rusilko/bookstore.git
-        • git push
-        • git push origin master
-        • git branch -u origin/master
-        • git pull
+        • echo "ate a banana" >> diary
+        • git diff --color
+        • git add .
+        • git reset HEAD
+        • git add -u . (only tracked)
+        • git add -A (all with deletes)
+        • git commit -a -m "add and commit"
+        • git commit --amend
 
 
 

@@ -1,10 +1,18 @@
-        Branches
+        Merging 1
 
-        • git branch oklahoma
-        • git checkout -b arizona
-        • gl
-        • git branch -d oklahoma
-        • Branch is just a pointer to commit
+        • skip ex, but go thru
+        • gco arizona
+        • echo "a day in arizona" >> diary
+        • echo "Chapter X" >> book
+        • git commit -am "arizona 1"
+        • gco master
+        • echo "a day at home" >> diary
+        • git commit -am "home 1"
+        • gl --all
+        • git merge arizona
+        • (resolve conflicts)
+        • git add
+        • git commit
 
 
 

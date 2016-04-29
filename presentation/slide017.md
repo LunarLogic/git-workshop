@@ -1,9 +1,3 @@
-        Interactive rebase
-
-        • gco master
-        • git rebase -i HEAD~4
-        • ...
-
         Fetch & Merge
 
         • cd ..

@@ -1,16 +1,9 @@
-        Staging Area (index)
+        Staging Area (Index)
 
-        • git add diary
-        • blob is created
-        • git status
+        • git add diary.md
         • index is a file that stores info
         • about you want to commit
-        • echo "ate a banana" >> diary
-        • git status
-        • git diff --color
         • git diff --staged --color
-        • alias d="git diff -M --color"
-        • alias gds="git diff --staged --color"
 
 
 

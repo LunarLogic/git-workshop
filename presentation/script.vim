@@ -1,5 +1,7 @@
 set nonumber
 set nofoldenable
+set nocursorcolumn
+set nocursorline
 if exists('+relativenumber')
   set norelativenumber
 end
@@ -34,5 +36,4 @@ b 19
 b 20
 b 21
 b 22
-b 23
 b 1

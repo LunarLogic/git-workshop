@@ -1,21 +1,18 @@
-        Rebase
+        Workflow
 
-        • gco -b california
-        • echo "Chapter 4" >> book
-        • git commit -am "add chapter 4"
-        • echo "Chapter 5"  >> book
-        • git commit -am "add chapter 5"
-        • git push
-        • gco master
-        • echo "Foreword" >> book
-        • git commit -am "add foreword"
-        • echo "Index" >> book
-        • git commit -am "add index"
-        • gl -all
-        • gco california
-        • git rebase master
-        • gl -all
-        • git push
+        • gco -b my-feature-name
+        • work on your branch:
+        • frequent small commits
+        • diff before commiting to check
+        • use amend if needed
+        • concise & meaningful commit messages
+        • when work is done, check if any clean up is needed
+        • use interactive rebase to squash/remove/edit commits
+        • push to remote
+        • open a "pull request" on github (as in "I want you to pull in my changes")
+        • if merge to master is not trivial: back-merge or rebase your branch
+        • after rebase push with force (only your branch)
+        • NEVER force push master/production or any branch which is shared with others
 
 
 

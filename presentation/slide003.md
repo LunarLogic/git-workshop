@@ -1,11 +1,7 @@
-        Working directory
+        Untracked
 
-        • git init
-        • git ls-files
-        • touch readme.md
-        • git add readme.md
-        • git commit -m "Initial commit"
-        • git ls-files
+        • gco -b tomek
+        • echo "A beautiful day" > diary.md
 
 
 

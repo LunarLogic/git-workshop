@@ -1,11 +1,22 @@
-        Merging 2
+        Merging 3: Back merging
 
-        • make some changes
-        • git merge arizona
+        • skip ex
+        • gco -b oklahoma
+        • echo "a day in oklahoma" >> diary
+        • git commit -am "oklahoma 1"
+        • gco master
+        • echo "a day in school" >> diary
+        • git commit -am "shool day"
+        • git merge oklahoma
+        • uups CONFLICTS, lets back out
         • git merge --abort
-        • git merge arizona -X ours/theirs
-        •
-        • merge-commit has 2 parents
+        • gco oklahoma
+        • git merge master
+        • resolve conflicts
+        • git add; git commit
+        • gco master
+        • git merge oklahoma
+        • nice and easy merge (fast forward)
 
 
 

@@ -5,81 +5,70 @@ Setup: Aliases
 * alias gco='git checkout'
 
 
-Setup: Files
+Setup: Clone Remote Repo
 
-* mkdir -p bookstore; cd bookstore
-* echo "beautiful day" > diary
-* echo "Chapter 1" > book
-* echo "buy milk" > memory
-
-
-Working directory
-
-* git init
-* git ls-files
-* touch readme.md
-* git add readme.md
-* git commit -m "Initial commit"
+* git clone git@github.com:LunarLogic/git-workshop.git
+* cd git-workshop
 * git ls-files
 
 
-Staging Area (index)
+Untracked
 
-* git add diary
-* blob is created
-* git status
+* gco -b tomek
+* echo "A beautiful day" > diary.md
+
+
+Staging Area (Index)
+
+* git add diary.md
 * index is a file that stores info
   about you want to commit
-* echo "ate a banana" >> diary
-* git status
-* git diff --color
 * git diff --staged --color
-* alias d="git diff -M --color"
-* alias gds="git diff --staged --color"
 
 
-Local Repository
+Commiting
 
 * git commit -m "Added diary"
 * commit is a blob/tree which gets a name
 * commit is a named snapshot of a repo
 * commit always has a parent
 * different parent == different commit (rebasing)
+
+
+Editing & Commiting (Working directory)
+
+* echo "ate a banana" >> diary
+* git diff --color
+* git add .
+* git reset HEAD
+* git add -u . (only tracked)
+* git add -A (all with deletes)
 * git commit -a -m "add and commit"
 * git commit --amend
 
 
-Remote Repository
+Branches
 
-* git push
-* lets set up remote repo on github
-* git remote add origin git@github.com:rusilko/bookstore.git
-* git push
-* git push origin master
-* git branch -u origin/master
-* git pull
-
-
-Staging files
-
-* git add . (all)
-* git reset HEAD
-* git add -u . (only tracked)
-* git add -A (all with deletes)
+* git branch oklahoma
+* git checkout -b arizona
+* gl
+* git branch -d oklahoma
+* Branch is just a pointer to commit
 
 
 Checkout
 
+* checkout copies a snapshot(commit)
+  to your working directory
 * git checkout HEAD
 * git checkout HEAD~
 * git checkout HEAD~2
 * git chekcout 123abc
 * echo "ate a banana" >> diary
-* git checkout [HEAD] -- diary
+* git checkout HEAD -- diary
 * git checkout ABC -- diary
-* checkout copies a snapshot(commit)
-  to your working directory
 * git checkout -- .
+* git checkout .
 
 
 Reset
@@ -103,17 +92,9 @@ Stash
 * git stash drop
 
 
-Branches
-
-* git branch oklahoma
-* git checkout -b arizona
-* gl
-* git branch -d oklahoma
-* Branch is just a pointer to commit
-
-
 Merging 1
 
+* skip ex, but go thru
 * gco arizona
 * echo "a day in arizona" >> diary
 * echo "Chapter X" >> book
@@ -130,17 +111,17 @@ Merging 1
 
 Merging 2
 
+* skip ex
 * make some changes
 * git merge arizona
 * git merge --abort
 * git merge arizona -X ours/theirs
-
 * merge-commit has 2 parents
 
 
 Merging 3: Back merging
 
-
+* skip ex
 * gco -b oklahoma
 * echo "a day in oklahoma" >> diary
 * git commit -am "oklahoma 1"
@@ -161,6 +142,7 @@ Merging 3: Back merging
 
 Rebase
 
+* skip ex
 * gco -b california
 * echo "Chapter 4" >> book
 * git commit -am "add chapter 4"
@@ -181,9 +163,28 @@ Rebase
 
 Interactive rebase
 
+* skip
 * gco master
 * git rebase -i HEAD~4
 ...
+
+
+Workflow
+
+* gco -b my-feature-name
+* work on your branch:
+* frequent small commits
+* diff before commiting to check
+* use amend if needed
+* concise & meaningful commit messages
+* when work is done, check if any clean up is needed
+* use interactive rebase to squash/remove/edit commits
+* push to remote
+* open a "pull request" on github (as in "I want you to pull in my changes")
+* if merge to master is not trivial: back-merge or rebase your branch
+* after rebase push with force (only your branch)
+* NEVER force push master/production or any branch which is shared with others
+
 
 Fetch & Merge
 
@@ -208,23 +209,6 @@ Pull
 * pull = fetch + merge
 * git pull --rebase = fetch + rebase
 * git pull --rebase --ff-only (will back out in case of conflicts)
-
-
-Workflow
-
-* gco -b my-feature-name
-* work on your branch:
-* frequent small commits
-* diff before commiting to check
-* use amend if needed
-* concise & meaningful commit messages
-* when work is done, check if any clean up is needed
-* use interactive rebase to squash/remove/edit commits
-* push to remote
-* open a "pull request" on github (as in "I want you to pull in my changes")
-* if merge to master is not trivial: back-merge or rebase your branch
-* after rebase push with force (only your branch)
-* NEVER force push master/production or any branch which is shared with others
 
 
 Dealing with fuckups
